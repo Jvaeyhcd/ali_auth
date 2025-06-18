@@ -58,7 +58,7 @@ class AliAuthModel {
   late bool? isStatusBarHidden;
 
   /// 设置状态栏U属性
-  late UIFAG? statusBarUIFlag;
+  late UIFlag? statusBarUIFlag;
 
   /// 设置协议⻚状态栏颜⾊（系统版本 5.0 以上可设置）不设置则与授权⻚设置⼀致
   late String? webViewStatusBarColor;
@@ -1017,7 +1017,7 @@ Map<String, dynamic> _$AliAuthModelToJson(AliAuthModel instance) =>
       'privacyAlertTitleBackgroundColor':
           instance.privacyAlertTitleBackgroundColor ?? "#ffffff",
       'privacyAlertTitleAlignment': EnumUtils.formatGravityValue(
-          instance.privacyAlertTitleAlignment ?? Gravity.centerHorizntal),
+          instance.privacyAlertTitleAlignment ?? Gravity.centerHorizontal),
       'privacyAlertTitleOffsetX': instance.privacyAlertTitleOffsetX,
       'privacyAlertTitleOffsetY': instance.privacyAlertTitleOffsetY,
       'privacyAlertTitleTextSize': instance.privacyAlertTitleTextSize ?? 22,
