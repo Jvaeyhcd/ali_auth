@@ -52,10 +52,8 @@ class MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
 
     /// 初始化第三方按钮数据
     setState(() {
-      androidSk =
-          "kReOFbE7mWUhefnT2BAGdKCGqgtnZbcPa/vGFc6z//ytIrOxZRndH0pdIeHM465OfdpHPMFxgPATR1EnKE7aonZ5hyEP1CE4Wz0QhWEWNTg7mmeq8hstbgFtjP8boZx/mPalQZmfD5heQ9E5Rahg4tWQfsCBENlQLgR/6vqtA8F3knXFa6awGegHj3C8bSXyCVj2OKxZFAvrZ1+1bd7TD2We3HyXsSJoDBLGuSqZIZ3VkExNC8jX4fL9uP5Ul9VVNSjahTn70u+9RYdB0BrtJpw+FPytOIsapzqdfrtqkFTk3v0+BcVJnA==";
-      iosSk =
-          "mjWr9sTsoXwmMx7qf0T2KQOQBpqkxeNW9I1ZNZ96ZCeBbeD9xYOUaC2mE9mcqog041VCot2sLcy9UArf+re517e5R9yowKCjf15VglZSP/HweRhOT8Cvci43zagyRqo40l85LTnZ5uJPaVauDLJB7hOTIkNPGm3fb621k6A6ZDh6aDGAKWyy0tPUPV/9RFrfeig9SURNe9Vl/Aok6SKg+SftM30uk2W8wdbV8gMVbU51Odnoapm2ZlAJYmCrdoXvROW5qc8pbQ8=";
+      androidSk = "2EqsJsG/gSDv67XQ0QqQkid2lYE/EoWOyJrRcG8R532cuKn5imcEX96GtpDTQl4QoxjJuDJBjTmgzvHZhfRxRaEADbGSODQF9agTBNQxh+Q3s1tIJ7w94NudOhvue3sK5ECVYTiGt46YJknO4wHmDSvjDgasuY0KuNitwiVj2ZHSyLX5pFI8jYMqEW0dXx7Uwp6XaaI+zvZCDBCj/DEREaJIj5XQysnE7y9v54uI7tKowWoJM7RW4v0fcGtONCZFCW/ICYPyxFVM8AwQ1iBAVz/wrCbYrJ0GVdsntJYiCUWEZIoOlwX10Q==";
+      iosSk = "pryUInn3iAvdE7OKwutXvnpQPKMoU5TQWxpCzaxmikjfzzDsgm4RBbLnK4ykgyb94QN0AqdBHWPVGiz5Cz9+VhsvIceLHQ+oryeU14LQ2s0Rx7a0itZDusFTIC98319sDfE2GsfbZt8dfkoiBb5JAxtKO1KK/D/nrCpsMZAbuKqzZcoQwH6kQh3slwy2I/78tdqqd0lo9K9zvcHu4f672Z8vl0jsGyHCSJ6zfP9BHjZHxTmMBZz414CgvXZUIAU27SAm93eflF8=";
 
       screenWidth =
           (PlatformDispatcher.instance.views.first.physicalSize.width /
